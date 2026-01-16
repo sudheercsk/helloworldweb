@@ -11,8 +11,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: systeminfo
- 
- mac:
+  mac:
     runs-on: macos-latest
     steps:
       - run: sw_vers
